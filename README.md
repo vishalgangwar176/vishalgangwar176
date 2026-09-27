@@ -25,16 +25,11 @@
 
 | 📁 Project | 💻 Tech Stack | 🌟 Highlight |
 |:---|:---:|:---|
-| [🛒 **FreshKart**](https://github.com/vishalgangwar176/Prodigy_FS_03) | `React` `Node.js` `MongoDB` | Full-stack grocery e-commerce with cart, Razorpay & COD |
-| [💬 **PulseChat**](https://github.com/vishalgangwar176/Prodigy_FS_04) | `TypeScript` `React` `Socket.io` | Real-time messaging & collaboration with instant channels |
-| [👥 **WorkForce Pro**](https://github.com/vishalgangwar176/Prodigy_FS_02) | `React` `Node.js` `Express` | Role-based employee platform with zero-trust RBAC & analytics |
-| [🛡️ **CipherShield IAM**](https://github.com/vishalgangwar176/Prodigy_FS_01) | `React` `Three.js` `JWT` | Interactive 3D security & IAM platform with live activity · [Live Demo 🌐](https://frontend-psi-lovat-71.vercel.app) |
 | [🏎️ **DEGRAD-X**](https://github.com/vishalgangwar176) | `Python` `AI/ML` `Data Viz` | AI tyre degradation intelligence platform · TrackShift Challenge 🏆 |
-| [🎓 **PrepNode**](https://github.com/vishalgangwar176) | `TypeScript` `Next.js` `AI/LLM` | Adaptive AI-powered learning & interactive evaluation platform |
-| [🏥 **MediCore OS**](https://github.com/vishalgangwar176) | `React` `Node.js` `MongoDB` | Smart hospital management with predictive patient analytics |
-| [🌬️ **National Air**](https://github.com/vishalgangwar176/NATIONAL--AIR-) | `Python` `React` `Flask` | Air quality forecasting & geospatial visualization · [Live Demo 🌐](https://national-air.vercel.app) |
 | [🔒 **Digital Trust**](https://github.com/vishalgangwar176/Pioneering-Digital-Trust) | `AI/ML` `React` `TypeScript` | Real-time threat detection correlating telemetry heuristics · [Live Demo 🌐](https://agent-6a5901f37ad42d48--pioneering-digital-trust.netlify.app/) |
-| [🪑 **Exam Seating**](https://github.com/vishalgangwar176/Exam-Seating-Arrangement) | `C++` `DSA` `Algorithms` | Automated conflict-free student seat allocation engine |
+| [🛡️ **CipherShield IAM**](https://github.com/vishalgangwar176/Prodigy_FS_01) | `React` `Three.js` `JWT` | Interactive 3D security & IAM platform with live activity · [Live Demo 🌐](https://frontend-psi-lovat-71.vercel.app) |
+| [🌬️ **National Air**](https://github.com/vishalgangwar176/NATIONAL--AIR-) | `Python` `React` `Flask` | Air quality forecasting & geospatial visualization · [Live Demo 🌐](https://national-air.vercel.app) |
+| [🛒 **FreshKart**](https://github.com/vishalgangwar176/Prodigy_FS_03) | `React` `Node.js` `MongoDB` | Full-stack grocery e-commerce with cart, Razorpay & COD |
 
 <br/>
 
