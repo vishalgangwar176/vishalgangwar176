@@ -7,7 +7,7 @@ from fontTools.pens.svgPathPen import SVGPathPen
 with open('banner_avatar_cutout.webp', 'rb') as f:
     banner_avatar_b64 = base64.b64encode(f.read()).decode('ascii')
 
-with open('id_avatar_crop.webp', 'rb') as f:
+with open('id_avatar_crop.png', 'rb') as f:
     id_avatar_b64 = base64.b64encode(f.read()).decode('ascii')
 
 # 2. Extract letter paths for "Vishal Gangwar"
@@ -577,21 +577,18 @@ print("Generated vishal-banner.svg and vishal-banner-light.svg successfully!")
 # ==========================================
 # 3. vishal-lanyard.svg (Developer ID Badge)
 # ==========================================
-lanyard_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Vishal Gangwar ID card lanyard">
+lanyard_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Vishal Gangwar ID card lanyard">
 <title>Vishal Gangwar — swinging ID badge</title>
 <defs>
 <style type="text/css"><![CDATA[
 text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
-@keyframes settle{{0%{{transform:rotate(0deg) translateY(-660px)}}18%{{transform:rotate(0deg) translateY(0)}}30%{{transform:rotate(13deg)}}46%{{transform:rotate(-9deg)}}62%{{transform:rotate(6deg)}}78%{{transform:rotate(-3.5deg)}}92%{{transform:rotate(1.5deg)}}100%{{transform:rotate(0deg)}}}}
-@keyframes sway{{0%,100%{{transform:rotate(-3.2deg)}}50%{{transform:rotate(3.2deg)}}}}
-@keyframes cardWobble{{0%,100%{{transform:rotate(1.6deg)}}50%{{transform:rotate(-1.6deg)}}}}
+@keyframes sway{{0%,100%{{transform:rotate(-2.8deg)}}50%{{transform:rotate(2.8deg)}}}}
+@keyframes cardWobble{{0%,100%{{transform:rotate(1.2deg)}}50%{{transform:rotate(-1.2deg)}}}}
 @keyframes shine{{0%{{transform:translateX(-340px) skewX(-18deg)}}55%,100%{{transform:translateX(420px) skewX(-18deg)}}}}
-@keyframes twinkle{{0%,100%{{opacity:0;transform:scale(.4)}}50%{{opacity:1;transform:scale(1)}}}}
-@keyframes fadeIn{{from{{opacity:0}}to{{opacity:1}}}}
-.settle{{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}}
-.sway{{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}}
-.wob{{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}}
-.shine{{animation:shine 4.5s ease-in-out 3.6s infinite}}
+@keyframes twinkle{{0%,100%{{opacity:0.3;transform:scale(.7)}}50%{{opacity:1;transform:scale(1.1)}}}}
+.sway{{transform-origin:210px 6px;animation:sway 4.6s ease-in-out infinite}}
+.wob{{transform-origin:210px 300px;animation:cardWobble 4.6s ease-in-out infinite}}
+.shine{{animation:shine 4.5s ease-in-out infinite}}
 .tw{{transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}}
 ]]></style>
 
@@ -630,8 +627,8 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
 <g class="tw" style="animation-delay:1.8s"><path d="M365 370l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#38bdf8"/></g>
 <g class="tw" style="animation-delay:2.7s"><path d="M52 480l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#818cf8"/></g>
 
-<!-- pendulum: settle then sway -->
-<g class="settle"><g class="sway">
+<!-- pendulum sway (guaranteed in-viewport from frame 0) -->
+<g class="sway">
 
   <!-- Strap -->
   <g>
@@ -659,8 +656,8 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
       <text x="322" y="345" text-anchor="end" font-size="9" font-weight="bold" fill="#22d3ee" letter-spacing="1.5">VG-176</text>
 
       <!-- Avatar: Perfectly centered circular crop with even padding -->
-      <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
-      <image x="151" y="353" width="118" height="118" clip-path="url(#avatarclip)" href="data:image/webp;base64,{id_avatar_b64}"/>
+      <circle cx="210" cy="412" r="59" fill="#0f172a" stroke="url(#cardborder)" stroke-width="2.5"/>
+      <image x="151" y="353" width="118" height="118" clip-path="url(#avatarclip)" href="data:image/png;base64,{id_avatar_b64}" xlink:href="data:image/png;base64,{id_avatar_b64}"/>
 
       <!-- Name: Vishal Gangwar (Pacifico vector outlines, centered at x=103) -->
       <g transform="translate(103,516)" fill="url(#nameg2)" filter="url(#glow2)">
@@ -702,9 +699,9 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
       <rect class="shine" x="82" y="288" width="120" height="360" fill="url(#shineg)"/>
     </g>
   </g>
-</g></g>
+</g>
 
-<text x="210" y="652" text-anchor="middle" font-size="10" fill="#94a3b8" opacity="0" style="animation:fadeIn .6s ease 3.6s forwards">— drag me… just kidding, I'm an SVG ⚡ —</text>
+<text x="210" y="652" text-anchor="middle" font-size="10" fill="#94a3b8" opacity="0.85">— swinging ID badge ⚡ —</text>
 </svg>'''
 
 with open('vishal-lanyard.svg', 'w') as f:
