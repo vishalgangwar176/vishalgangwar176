@@ -2,34 +2,39 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./vishal-banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./vishal-banner-light.svg?v=1">
-  <img src="./vishal-banner.svg?v=1" alt="Vishal Gangwar — Full Stack Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./vishal-banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./vishal-banner-light.svg?v=3">
+  <img src="./vishal-banner.svg?v=3" alt="Vishal Gangwar — Full Stack Developer" width="100%"/>
 </picture>
 
 </div>
 
 <br/>
 
-<table align="center" border="0">
+<table align="center" border="0" width="100%">
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card (pure SVG) -->
-<img src="./vishal-lanyard.svg?v=1" alt="Vishal Gangwar ID badge" width="330"/>
+<!-- 🪪 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
+<img src="./vishal-lanyard.svg?v=2" alt="Vishal Gangwar ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
 
 ### 🚀 Featured Projects
 
-<!-- Edit this table with your real repos — add links, tech stack and star counts -->
-
-| 📁 Project | 💻 Tech | ⭐ |
-|:---|:---:|:---:|
-| [Project Name 1](https://github.com/vishalgangwar176) | `Tech` `Stack` | — |
-| [Project Name 2](https://github.com/vishalgangwar176) | `Tech` `Stack` | — |
-| [Project Name 3](https://github.com/vishalgangwar176) | `Tech` `Stack` | — |
+| 📁 Project | 💻 Tech Stack | 🌟 Highlight |
+|:---|:---:|:---|
+| [🛒 **FreshKart**](https://github.com/vishalgangwar176/Prodigy_FS_03) | `React` `Node.js` `MongoDB` | Full-stack grocery e-commerce with cart, Razorpay & COD |
+| [💬 **PulseChat**](https://github.com/vishalgangwar176/Prodigy_FS_04) | `TypeScript` `React` `Socket.io` | Real-time messaging & collaboration with instant channels |
+| [👥 **WorkForce Pro**](https://github.com/vishalgangwar176/Prodigy_FS_02) | `React` `Node.js` `Express` | Role-based employee platform with zero-trust RBAC & analytics |
+| [🛡️ **CipherShield IAM**](https://github.com/vishalgangwar176/Prodigy_FS_01) | `React` `Three.js` `JWT` | Interactive 3D security & IAM platform with live activity · [Live Demo 🌐](https://frontend-psi-lovat-71.vercel.app) |
+| [🏎️ **DEGRAD-X**](https://github.com/vishalgangwar176) | `Python` `AI/ML` `Data Viz` | AI tyre degradation intelligence platform · TrackShift Challenge 🏆 |
+| [🎓 **PrepNode**](https://github.com/vishalgangwar176) | `TypeScript` `Next.js` `AI/LLM` | Adaptive AI-powered learning & interactive evaluation platform |
+| [🏥 **MediCore OS**](https://github.com/vishalgangwar176) | `React` `Node.js` `MongoDB` | Smart hospital management with predictive patient analytics |
+| [🌬️ **National Air**](https://github.com/vishalgangwar176/NATIONAL--AIR-) | `Python` `React` `Flask` | Air quality forecasting & geospatial visualization · [Live Demo 🌐](https://national-air.vercel.app) |
+| [🔒 **Digital Trust**](https://github.com/vishalgangwar176/Pioneering-Digital-Trust) | `AI/ML` `React` `TypeScript` | Real-time threat detection correlating telemetry heuristics · [Live Demo 🌐](https://agent-6a5901f37ad42d48--pioneering-digital-trust.netlify.app/) |
+| [🪑 **Exam Seating**](https://github.com/vishalgangwar176/Exam-Seating-Arrangement) | `C++` `DSA` `Algorithms` | Automated conflict-free student seat allocation engine |
 
 <br/>
 
@@ -43,37 +48,46 @@
 
 <div align="center">
 
-### 📊 GitHub Stats & Graphs
+### 📊 GitHub Stats & Languages
 
-<img src="./vishal-stats.svg?v=1" alt="GitHub Stats" height="185"/>
-<img src="./vishal-langs.svg?v=1" alt="Top Languages" height="185"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=vishalgangwar176&theme=radical&hide_border=true&background=0e1930&ring=22d3ee&fire=38bdf8&currStreakLabel=6366f1" alt="GitHub Streak"/>
+<img src="./vishal-stats.svg?v=2" alt="GitHub Stats" height="185"/>
+<img src="./vishal-langs.svg?v=2" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vishalgangwar176&bg_color=0e1930&color=22d3ee&line=38bdf8&point=6366f1&area=true&area_color=38bdf8&hide_border=true&custom_title=Contribution%20Graph%20⚡" alt="Contribution graph" width="95%"/>
+### 📈 Streak & Activity
+
+<img src="https://streak-stats.demolab.com?user=vishalgangwar176&theme=radical&hide_border=true&background=0b172a&ring=22d3ee&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="95%"/>
 
 <br/><br/>
+
+### 🏆 Achievements & Badges
 
 <!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./vishal-trophies.svg?v=1" alt="Trophies" width="95%"/>
+<img src="./vishal-trophies.svg?v=2" alt="Trophies" width="95%"/>
+
+<br/><br/>
+
+### 📊 Contribution Graph
+
+<img src="https://ghchart.rshah.org/22d3ee/vishalgangwar176" alt="Vishal Gangwar Contribution Graph" width="95%"/>
 
 <br/><br/>
 
 ### 🐍 Watch the snake eat my contributions
 
-<img src="https://raw.githubusercontent.com/vishalgangwar176/vishalgangwar176/output/github-snake-blue.svg" alt="Contribution snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-blue.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./github-snake-blue.svg">
+  <img src="./github-snake-blue.svg" alt="Contribution snake" width="100%"/>
+</picture>
 
 <br/><br/>
 
 ### 📫 Let's Connect
 
-<a href="mailto:vishalgangwar176@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/vishalgangwar176"><img src="https://img.shields.io/badge/GitHub-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:vishalgangwar176@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=0b172a" alt="Email"/></a>
+<a href="https://github.com/vishalgangwar176"><img src="https://img.shields.io/badge/GitHub-38bdf8?style=for-the-badge&logo=github&logoColor=0b172a" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/vishal-gangwar-1a4026396/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 <br/><br/>
