@@ -16,20 +16,49 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
-<img src="./vishal-lanyard.svg?v=3" alt="Vishal Gangwar ID badge" width="330"/>
+<img src="./vishal-lanyard.svg?v=4" alt="Vishal Gangwar ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
 
 ### 🚀 Featured Projects
 
-| 📁 Project | 💻 Tech Stack | 🌟 Highlight |
-|:---|:---:|:---|
-| [🏎️ **DEGRAD-X**](https://github.com/vishalgangwar176) | `Python` `AI/ML` `Data Viz` | AI tyre degradation intelligence platform · TrackShift Challenge 🏆 |
-| [🔒 **Digital Trust**](https://github.com/vishalgangwar176/Pioneering-Digital-Trust) | `AI/ML` `React` `TypeScript` | Real-time threat detection correlating telemetry heuristics · [Live Demo 🌐](https://agent-6a5901f37ad42d48--pioneering-digital-trust.netlify.app/) |
-| [🛡️ **CipherShield IAM**](https://github.com/vishalgangwar176/Prodigy_FS_01) | `React` `Three.js` `JWT` | Interactive 3D security & IAM platform with live activity · [Live Demo 🌐](https://frontend-psi-lovat-71.vercel.app) |
-| [🌬️ **National Air**](https://github.com/vishalgangwar176/NATIONAL--AIR-) | `Python` `React` `Flask` | Air quality forecasting & geospatial visualization · [Live Demo 🌐](https://national-air.vercel.app) |
-| [🛒 **FreshKart**](https://github.com/vishalgangwar176/Prodigy_FS_03) | `React` `Node.js` `MongoDB` | Full-stack grocery e-commerce with cart, Razorpay & COD |
+<table width="100%">
+<thead>
+<tr>
+<th align="left">📁 Project</th>
+<th align="center">💻 Tech Stack</th>
+<th align="left">🌟 Highlight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/vishalgangwar176">🏎️ <b>DEGRAD-X</b></a></td>
+<td align="center"><code>Python</code> <code>AI/ML</code> <code>Data Viz</code></td>
+<td align="left">AI tyre degradation intelligence platform · TrackShift Challenge 🏆</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vishalgangwar176/Pioneering-Digital-Trust">🔒 <b>Digital Trust</b></a></td>
+<td align="center"><code>AI/ML</code> <code>React</code> <code>TypeScript</code></td>
+<td align="left">Real-time threat detection correlating telemetry heuristics · <a href="https://agent-6a5901f37ad42d48--pioneering-digital-trust.netlify.app/">Live Demo 🌐</a></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vishalgangwar176/Prodigy_FS_01">🛡️ <b>CipherShield IAM</b></a></td>
+<td align="center"><code>React</code> <code>Three.js</code> <code>JWT</code></td>
+<td align="left">Interactive 3D security &amp; IAM platform with live activity · <a href="https://frontend-psi-lovat-71.vercel.app">Live Demo 🌐</a></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vishalgangwar176/NATIONAL--AIR-">🌬️ <b>National Air</b></a></td>
+<td align="center"><code>Python</code> <code>React</code> <code>Flask</code></td>
+<td align="left">Air quality forecasting &amp; geospatial visualization · <a href="https://national-air.vercel.app">Live Demo 🌐</a></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vishalgangwar176/Prodigy_FS_03">🛒 <b>FreshKart</b></a></td>
+<td align="center"><code>React</code> <code>Node.js</code> <code>MongoDB</code></td>
+<td align="left">Full-stack grocery e-commerce with cart, Razorpay &amp; COD</td>
+</tr>
+</tbody>
+</table>
 
 <br/>
 
